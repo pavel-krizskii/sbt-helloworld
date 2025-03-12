@@ -6,7 +6,7 @@ lazy val root = (project in file("."))
   .settings(
     organization in ThisBuild := "com.example",
     scalaVersion in ThisBuild := "2.12.18",
-    version      in ThisBuild := "0.1.0-SNAPSHOT",
+    version      in ThisBuild := "0.1.1-SNAPSHOT",
     name := "Hello",
     libraryDependencies += scalaTest % Test
   )
